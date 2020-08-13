@@ -31,7 +31,7 @@ export const Example = () => {
     const {
         latitudeIp,
         longitudeIp
-    } = useCoords();
+    } = useIpCoords();
 
     return (
         <div>
