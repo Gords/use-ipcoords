@@ -21,11 +21,13 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
+  "dependencies": {
+    "axios": "0.9.1"
+  },
   "peerDependencies": {
     "react": "^16.9.0"
   },
   "devDependencies": {
-    "axios": "^0.19.2",
     "@babel/core": "^7.0.0",
     "@babel/plugin-external-helpers": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
