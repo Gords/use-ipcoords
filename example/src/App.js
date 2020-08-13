@@ -1,12 +1,20 @@
 import React from 'react'
-import { useMyHook } from 'use-ipcoords'
+import { useIpCoords } from 'use-ipcoords'
+
 
 const App = () => {
-  const example = useMyHook()
-  return (
-    <div>
-      {example}
-    </div>
-  )
-}
-export default App
+    const {
+        latitudeIp,
+        longitudeIp
+    } = useIpCoords();
+
+    return (
+        <div>
+            latitudeIp : {latitudeIp}<br />
+            longitudeIp : {longitudeIp}<br />
+        </div>
+    );
+
+};
+
+export default App;

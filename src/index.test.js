@@ -1,12 +1,12 @@
-import { useMyHook } from './'
+import { useIpCoords } from './'
 import { renderHook, act } from "@testing-library/react-hooks";
 
 // mock timer using jest
 jest.useFakeTimers();
 
-describe('useMyHook', () => {
+describe('useIpCoords', () => {
   it('updates every second', () => {
-    const { result } = renderHook(() => useMyHook());
+    const { result } = renderHook(() => useIpCoords());
 
     expect(result.current).toBe(0);
 

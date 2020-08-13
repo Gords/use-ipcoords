@@ -4,25 +4,41 @@
 
 [![NPM](https://img.shields.io/npm/v/use-ipcoords.svg)](https://www.npmjs.com/package/use-ipcoords) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
+## Installation
+
+Using `yarn`:
 
 ```bash
-npm install --save use-ipcoords
+yarn add use-ipcoords
+```
+
+Using `npm`:
+
+```bash
+npm i use-ipcoords --save
 ```
 
 ## Usage
 
-```jsx
-import React, { Component } from 'react'
+```javascript
+import React from 'react';
+import { useIpCoords } from 'use-ipcoords'
 
-import { useMyHook } from 'use-ipcoords'
 
-const Example = () => {
-  const example = useMyHook()
-  return (
-    <div>{example}</div>
-  )
-}
+export const Example = () => {
+    const {
+        latitudeIp,
+        longitudeIp
+    } = useCoords();
+
+    return (
+        <div>
+            latitudeIp : {latitudeIp}<br />
+            longitudeIp : {longitudeIp}<br />
+        </div>
+    );
+
+};
 ```
 
 ## License
@@ -30,5 +46,3 @@ const Example = () => {
 MIT © [Gords](https://github.com/Gords)
 
 ---
-
-This hook is created using [create-react-hook](https://github.com/hermanya/create-react-hook).
