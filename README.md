@@ -1,6 +1,6 @@
 # use-ipcoords
 
-React Hook for getting coords over IP using geoJS
+React Hook for IP Geolocation lookup using geoJs
 
 ▶︎ [demo](https://gords.github.io/use-ipcoords/)
 
