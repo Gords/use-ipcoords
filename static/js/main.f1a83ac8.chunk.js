@@ -1,0 +1,2 @@
+(this["webpackJsonpuse-ipcoords-example"]=this["webpackJsonpuse-ipcoords-example"]||[]).push([[0],{13:function(e,t,n){e.exports=n(38)},20:function(e,t,n){},38:function(e,t,n){"use strict";n.r(t);var l=n(1),a=n.n(l),r=n(11),u=n.n(r),o=(n(20),n(12)),c=function(){var e=Object(o.a)(),t=e.latitudeIp,n=e.longitudeIp;return a.a.createElement("div",null,"latitudeIp : ",t,a.a.createElement("br",null),"longitudeIp : ",n,a.a.createElement("br",null))};u.a.render(a.a.createElement(c,null),document.getElementById("root"))}},[[13,1,2]]]);
+//# sourceMappingURL=main.f1a83ac8.chunk.js.map
