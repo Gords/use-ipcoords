@@ -1,8 +1,8 @@
 {
   "name": "use-ipcoords",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "React Hook for getting coords over IP using geoJS",
-  "author": "Gords",
+  "author": "Fernando Ramirez (https://www.linkedin.com/in/ferramirez/)",
   "license": "MIT",
   "repository": "Gords/use-ipcoords",
   "main": "dist/index.js",
@@ -67,5 +67,16 @@
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-url": "^2.1.0"
-  }
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "location",
+    "position",
+    "navigation",
+    "geolocation",
+    "position",
+    "ip",
+    "geojs"
+  ]
 }

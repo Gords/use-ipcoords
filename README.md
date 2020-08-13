@@ -1,6 +1,8 @@
 # use-ipcoords
 
-> React Hook for getting coords over IP using geoJS
+React Hook for getting coords over IP using geoJS
+
+▶︎ [demo](https://gords.github.io/use-ipcoords/)
 
 [![NPM](https://img.shields.io/npm/v/use-ipcoords.svg)](https://www.npmjs.com/package/use-ipcoords) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
