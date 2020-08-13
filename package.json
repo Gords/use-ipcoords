@@ -1,6 +1,6 @@
 {
   "name": "use-ipcoords",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "React Hook for getting coords over IP using geoJS",
   "author": "Fernando Ramirez (https://www.linkedin.com/in/ferramirez/)",
   "license": "MIT",
